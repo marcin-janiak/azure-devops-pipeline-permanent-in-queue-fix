@@ -70,7 +70,7 @@ Part of working agent response - if your agent is frozen, the `provisioningState
 ```json
 PATCH https://dev.azure.com/{orgName}/_apis/distributedtask/pools/{poolId}/agents/{agentId}?api-version=7.1-preview.1
 {
-    "Id": agentId,
+    "Id": "{agentId}",
     "ProvisioningState": "Deallocated"  
 }
 ```
